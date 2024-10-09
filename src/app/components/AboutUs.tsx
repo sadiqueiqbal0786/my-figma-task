@@ -70,7 +70,7 @@ const AboutUs = () => {
           color="#4A4A4A"
           mb={6}
         >
-          Lorem Ipsum is simply dummy text of the printing and <br/>typesetting industry. Lorem Ipsum has been the industry's <br/>standard dummy text ever since the 1500s, when an unknown <br/>printer took a galley of type and scrambled it to make a type<br/> specimen book. t has survived not only five centuries.
+          Lorem Ipsum is simply dummy text of the printing and <br/>typesetting industry. Lorem Ipsum has been the industry&rsquo;s <br/>standard dummy text ever since the 1500s, when an unknown <br/>printer took a galley of type and scrambled it to make a type<br/> specimen book. t has survived not only five centuries.
         </Text>
         <RoundedButton mt={4 } p={8} width={132}>Read More</RoundedButton>
       </Flex>
