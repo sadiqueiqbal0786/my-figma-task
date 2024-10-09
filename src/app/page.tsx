@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       
       {/* AboutUs with margin-top */}
-      <Box mt={{ base: 100, md: 100 }}>
+      <Box mt={{ base: 100, md: 200 }}>
       
         <AboutUs />
       
