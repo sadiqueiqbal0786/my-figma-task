@@ -80,7 +80,7 @@ const Header = () => {
   alignItems="flex-start"
   position="relative"
 
-  mt={{ base: "0px", md: "50px" }} // Use consistent unit (px) for margins
+  mt={{ base: "0px", md: "0px" }} // Use consistent unit (px) for margins
  // p={{ base: "16px", md: "32px" }} // Padding can help with spacing
 //  flexWrap="wrap" // Allow wrapping if items overflow
   height="auto" // Use auto height to adapt to content
