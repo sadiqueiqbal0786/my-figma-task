@@ -9,9 +9,9 @@ import theme from "./theme/theme";
 export default function Home() {
   return (
     <>
- 
+  <ChakraProvider theme={theme}>
       <Header />
-      <ChakraProvider theme={theme}> 
+      
       {/* AboutUs with margin-top */}
       <Box mt={{ base: 100, md: 100 }}>
       
