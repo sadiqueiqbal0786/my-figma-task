@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Flex, Heading, Text, Button, Image ,useBreakpointValue } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, Image  } from "@chakra-ui/react";
 import RoundedButton from "./RoundedButton";
 
 const AboutUs = () => {
