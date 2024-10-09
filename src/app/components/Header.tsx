@@ -81,8 +81,8 @@ const Header = () => {
   position="relative"
 
   mt={{ base: "0px", md: "0px" }} // Use consistent unit (px) for margins
- // p={{ base: "16px", md: "32px" }} // Padding can help with spacing
-//  flexWrap="wrap" // Allow wrapping if items overflow
+// p={{ base: "16px", md: "32px" }} // Padding can help with spacing
+ flexWrap="wrap" // Allow wrapping if items overflow
  height={{base:"auto",md:"100vh"}}// Use auto height to adapt to content
 >
  
@@ -100,7 +100,7 @@ const Header = () => {
     position="absolute"
    right={0} // Adjust right position based on screen size
     top={0} // Adjust top position based on screen size
-    bottom={0}
+    bottom={20}
 
   />
   
