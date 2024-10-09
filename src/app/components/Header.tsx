@@ -83,7 +83,7 @@ const Header = () => {
   mt={{ base: "0px", md: "0px" }} // Use consistent unit (px) for margins
  // p={{ base: "16px", md: "32px" }} // Padding can help with spacing
 //  flexWrap="wrap" // Allow wrapping if items overflow
-  height="auto" // Use auto height to adapt to content
+height={{base:"auto",md:"100vh"}}// Use auto height to adapt to content
 >
  
   <Image
