@@ -75,7 +75,7 @@ const Header = () => {
   {/* Adjust image sizes for different breakpoints */}
   <Button
         mt={50}
-        mr={50}
+        mr={10}
           variant="outline"
           borderColor="white"
          borderRadius="20px"
