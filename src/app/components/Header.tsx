@@ -14,9 +14,9 @@ const Header = () => {
       bg="white"
       p={{ base: 4, md: 8 }} // Adjust padding for mobile and desktop
       width="100vw" // Full width
-      height={{ base: 'auto',sm:'auto', md: '100vh', lg: '100vh',xl:'100vh' }} // Full height on desktop
+      height={{ base: 'auto',sm:'auto', md: '100vh',  }} // Full height on desktop
       position="relative" // Set position for absolute child elements
-      overflow="hidden" // Prevent overflow and double scrolling
+      overflow="visible" // Prevent overflow and double scrolling
     
     >
   <Flex
@@ -83,7 +83,7 @@ const Header = () => {
   mt={{ base: "0px", md: "0px" }} // Use consistent unit (px) for margins
  // p={{ base: "16px", md: "32px" }} // Padding can help with spacing
 //  flexWrap="wrap" // Allow wrapping if items overflow
-height={{base:"auto",md:"100vh"}}// Use auto height to adapt to content
+ height={{base:"auto",md:"100vh"}}// Use auto height to adapt to content
 >
  
   <Image
@@ -96,10 +96,12 @@ height={{base:"auto",md:"100vh"}}// Use auto height to adapt to content
   <Image
     src="/assets/corner.png"
     alt="Side Dish"
-   // boxSize="auto" // Responsive box sizes
+   //boxSize="auto" // Responsive box sizes
     position="absolute"
- //   right={{ base: "10px", sm: "20px", md: "30px" }} // Adjust right position based on screen size
-  //  top={{ base: "50px", md: "100px" }} // Adjust top position based on screen size
+   right={0} // Adjust right position based on screen size
+    top={0} // Adjust top position based on screen size
+    bottom={0}
+
   />
   
   {/* Adjust button margin and padding for different screens */}
